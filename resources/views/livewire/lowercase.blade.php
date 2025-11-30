@@ -13,10 +13,10 @@ mount(function(){
 <div>
     <h1>元の値</h1>
     <p>
-    {{$word}}
+        {{$word}}
     </p>
     <h1>小文字に変換</h1>
     <p>
-    {{ $word_lower}}
+        {{ $word_lower}}
     </p>
 </div>
