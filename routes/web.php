@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Volt::route('/lower/{word}', 'lowercase');
+
+Volt::route('/fizbuzz', 'fizbuzz');
